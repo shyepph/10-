@@ -1,0 +1,12 @@
+max_num = 0
+
+while True:
+    num = input("Введите число (0 для завершения): ")
+    if num == "0":
+        break
+
+    number = int(num)
+    if number > max_num:
+        max_num = number
+
+print("Самое большое число: ", max_num)
